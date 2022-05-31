@@ -141,14 +141,17 @@ body{
   justify-content:space-between;
   padding-top: 50px;
   padding-bottom: 50px;
+  margin: -20px;
 }
 .card{
+  flex: 50%;
+  margin: 20px;
   position: relative;
 
   border-radius: 20px;
   overflow: hidden;
   padding: 32px;
- width: 570px;
+ max-width: 570px;
   min-height: 380px;
   display: flex;
   flex-direction: column;
@@ -206,4 +209,244 @@ body{
   height: 100%;
   z-index: -2;
   object-fit: cover;
+}
+.delimery-week{
+  padding: 100px 0;
+}
+.section-title{
+  font-weight: 500;
+    font-size: 32px;
+    line-height: 23px;
+    margin-top: 0;
+    margin-bottom: 47px;
+}
+.delivery-cards{
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+}
+.delivery-card{
+  position: relative;
+  width: 275px;
+  height: 182px;
+  border-radius: 18px;
+  overflow: hidden;
+  margin: 15px;
+}
+.delivery-image{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.delivery-tag{
+  position: absolute;
+  left: 10px;
+  top: 16px;
+  border-radius: 30px;
+  font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #49494F;
+    padding: 5px 10px;
+}
+.tag-healf{
+background-color: #D0FD89;
+color: #49494F;
+}
+.tag-weg{
+  background-color: #AEBC41;
+  color: #fff;
+}
+.tag-meat{
+  background-color: #B86B78;
+  color: #fff;
+}
+.tag-chik{
+  background-color: #D68334;
+  color: #fff;
+}
+.tag-fish{
+  background-color: #CD6255;
+  color: #fff;
+}
+.tag-child{
+  background-color: #FFFDBF;
+  color: #49494F;
+}
+.tag-parent{
+  background-color: #F6FDC8;
+  color: #49494F;
+}
+.tag-fest{
+  background-color: #FEF7FE;
+  color: #49494F;
+}
+.section-grey{
+  background-color: #F6F6F6;
+
+}
+.category{
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+.tabs-content{
+  display: flex;
+  justify-content: space-between;
+}
+.tabs{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 62px;
+}
+.tabs-link{
+  font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+  
+    color: #49494F;
+    text-decoration: none;
+    margin-right: 58px;
+   
+}
+.tabs-link.active{
+ color: #F37321;
+}
+.tabs-card{
+  max-width: 270px;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+}
+.tabs-imag{
+  width: 100%;
+}
+.tabs-card-content{
+  padding: 23px;
+}
+.tabs-title{
+  margin-top: 0;
+  margin-bottom: 13px;
+ 
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+}
+.tabs-description{
+  font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    color: #B9B9BE;
+}
+.tabs-info{
+  display: flex;
+  align-items: center; 
+  justify-content: space-between; 
+}
+.tabs-price{
+  font-weight: 500;
+    font-size: 23px;
+    line-height: 23px;
+    color: #4B4B51;
+    display: block;
+    margin-bottom: 5px;
+}
+.tabs-weight{
+  font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #AAAAB1;
+}
+.button-outline{
+  padding: 15px 25px;
+  cursor: pointer;
+
+  background-color: transparent;
+border: 2px solid #F37321;
+  border-radius: 33px;
+  font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F37321;
+}
+.button-center{
+  display: block;
+  margin: auto;
+  margin-top: 60px;
+  width: 315px;
+  cursor: pointer;
+}
+.section-benefit{
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+.benefit-title-main{
+  margin-top: 0;
+  font-weight: 500;
+    font-size: 32px;
+    line-height: 23px;
+    margin-bottom: 52px;
+}
+.benefit-cards{
+  display: flex;
+  justify-content: space-between;
+}
+.benefit-card{
+  max-width: 270px;
+  padding: 23px 31px;
+  border: 1px solid #E9E9E9;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.benefit-image{
+  max-width: 60px;
+  margin-bottom: 34px;
+}
+.benefit-title{
+  font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+   margin-bottom: 13px;
+   text-align: center;
+}
+.benefit-description{
+  font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #49494F;
+      text-align: center;
+}
+.footer{
+  padding: 40px 0;
+  background-color: #F6F6F6;;
+}
+.footer-wrapper{
+  display: flex;
+  align-items: center;
+}
+.footer-logo{
+  margin-right: 50px;
+}
+.footer-link{
+  font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    text-decoration-line: underline; 
+    color: #000000;
+    margin-right: 50px;
+
+}
+.social-links{
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.social-link{
+  margin-left: 20px;
+  text-decoration: none;
 }
